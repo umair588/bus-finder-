@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteSelection"
+    android:background="#099F91"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:text="Select Route:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F8F4F4"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Select Bus:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F8F4F4"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Search"
+        android:onClick="search_btn"
+        android:elevation="0dp"
+        />
+
+</LinearLayout>

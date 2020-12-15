@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Bus finder</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">log in</string>
+    <string name="registration">Registration</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="sign_up">Sign up</string>
+    <string name="reg_name">Full name</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="logo_image">logo_image</string>
+    <string name="login">login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="new_user_sign_up">New user? Sign up</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="uifull_name">Full Name</string>
+    <string name="uiemail">Email</string>
+    <string name="uiphone">Phone</string>
+    <string name="uipassword">Password</string>
+    <string name="update">UPDATE</string>
+    <string name="title_activity_user_location">Map</string>
+    <string name="signup">SignUp</string>
+    <string name="already_have_an_account_login">Already have an account? LogIn</string>
+
+</resources>
