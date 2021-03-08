@@ -23,6 +23,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Objects;
+
 public class login extends AppCompatActivity {
     Button callsignup, btn_login;
     ImageView image;
@@ -30,6 +32,7 @@ public class login extends AppCompatActivity {
     TextView logotext, slogantext;
     FirebaseUser firebaseUser;
     DatabaseReference reference;
+    FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +47,7 @@ public class login extends AppCompatActivity {
         passowrd1 = findViewById(R.id.password);
         logotext = findViewById(R.id.logo_msg);
         slogantext = findViewById(R.id.slogan_msg);
+        auth = FirebaseAuth.getInstance();
 
     }
 
@@ -96,6 +100,7 @@ public class login extends AppCompatActivity {
 
                     String passwordfromDB = dataSnapshot.child(userEnteredUsername).child("password").getValue(String.class);
 
+                    assert passwordfromDB != null;
                     if (passwordfromDB.equals(userEnteredPassword)) {
 
                         username1.setError(null);

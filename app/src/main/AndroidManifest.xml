@@ -20,17 +20,19 @@
         -->
         <activity
             android:name=".UserLocation"
-            android:label="@string/title_activity_user_location" />
-        <activity android:name=".registrationauth" />
+            android:label="@string/title_activity_user_location" >
+
+        </activity>
         <activity android:name=".UserProfile" />
         <activity android:name=".PhoneVerification" />
         <activity android:name=".Registration" />
         <activity android:name=".splash_Screen">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
         </activity>
         <activity android:name=".login" />
 
