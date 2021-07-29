@@ -63,6 +63,6 @@ dependencies {
     //Location
     implementation 'com.google.android.gms:play-services-location:18.0.0'
     implementation 'com.google.firebase:firebase-auth:20.0.2'
-    implementation 'com.google.firebase:firebase-database:19.6.0'
+    implementation 'com.google.firebase:firebase-database:20.0.0'
 
 }

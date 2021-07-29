@@ -8,4 +8,6 @@
     <color name="basePressColor">#FAFAFA</color>
     <color name="baseBallColor">#9E9E9E</color>
 
+    <color name="dividercolor">#1F000000</color>
+
 </resources>

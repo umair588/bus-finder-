@@ -27,5 +27,6 @@
     <string name="already_have_an_account_login">Already have an account? LogIn</string>
 
     <string name="google_direction_api">AIzaSyDbsb4n0QH91SWhLnv-0PLeCsuyuVboGos</string>
+    <string name="enter_drop_up_location">enter_drop_up_location</string>
 
 </resources>

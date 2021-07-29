@@ -178,7 +178,7 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
         String apiKey = "AIzaSyDbsb4n0QH91SWhLnv-0PLeCsuyuVboGos";
         //Init View
-        location_switch = findViewById(R.id.location_switch);
+
         location_switch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if(isChecked){
                 startLocationUpdate();
@@ -198,7 +198,7 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
             Places.initialize(getApplicationContext(),apiKey);
         }
         placesClient = Places.createClient(this);
-        places = (AutocompleteSupportFragment)getSupportFragmentManager().findFragmentById(R.id.autoComplete_fragment);
+        places = (AutocompleteSupportFragment)getSupportFragmentManager().findFragmentById(R.id.places_to);
         places.setPlaceFields(Arrays.asList(Place.Field.ID, Place.Field.LAT_LNG,Place.Field.NAME));
         places.setOnPlaceSelectedListener(new PlaceSelectionListener() {
             @Override
