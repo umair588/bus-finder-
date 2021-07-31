@@ -179,6 +179,7 @@ public class UserLocation extends FragmentActivity implements OnMapReadyCallback
         String apiKey = "AIzaSyDbsb4n0QH91SWhLnv-0PLeCsuyuVboGos";
         //Init View
 
+        location_switch = new SwitchCompat(this);
         location_switch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if(isChecked){
                 startLocationUpdate();
